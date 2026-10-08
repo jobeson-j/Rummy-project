@@ -1,0 +1,42 @@
+/* Fonts are bundled in src/assets/fonts (SIL Open Font License), so no network or extra packages are needed. */
+@font-face {
+  font-family: 'Rozha One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./assets/fonts/rozha-one-latin-400-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./assets/fonts/hind-latin-400-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./assets/fonts/hind-latin-500-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('./assets/fonts/hind-latin-600-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./assets/fonts/hind-latin-700-normal.woff2') format('woff2');
+}
+
+/* Base reset. Component and theme styles live in App.css. */
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+h1, h2, h3, p { margin: 0; }
+img, svg { display: block; max-width: 100%; }
